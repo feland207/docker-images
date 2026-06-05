@@ -1,0 +1,14 @@
+# Ignore all python/vrnetlab compilation steps
+__pycache__/
+*.pyc
+
+# Ignore all large disk images and virtual machines
+*.qcow2
+*.img
+*.tar
+*.tar.gz
+
+# Block any accidental local Docker/Containerlab artifacts
+.terraform/
+*.tfstate
+*.tfstate.lock
